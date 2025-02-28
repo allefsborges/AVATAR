@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(./imagens/wallpaper.jpg);
+}
+
+header h1{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+nav li{
+    display: inline; 
+    margin-bottom:16px ;
+}
+
+header li a {
+    color: rgba(255, 255, 255, 0.848);
+    padding: 3px;
+    text-decoration: none;
+    font-family: 'Herculanum LT Pro', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.inicial{
+    background-image: url(./imagens/inicio.jpeg);
+}
+
+.story{
+    background-image: url(./imagens/story.jpeg);
+}
+
+.character{
+    background-image: url(./imagens/personangens.jpg);
+}
+
+.elements{
+    background-image: url(./imagens/mapa.jpg);
+}
+
+.inicial, .story, .character, .elements {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.inicial h2,
+.story h2,
+.character h2,
+.elements h2 {
+    font-family: 'Herculanum LT Pro', sans-serif;
+    font-size: 120px;
+    color: rgb(255, 247, 247);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.container,
+.container-characters{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(./imagens/wallpaper.jpg);
+    padding: 80px;   
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 16px 16px;
+    font-size: 24px;
+    color: white; 
+    text-align: center;
+    margin-top: 8px;
+}
+
+li img{
+    height: 80px;
+    display: flex;
+    display: inline;
+    border-radius: 8%;
+}
+
+.sectionabout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap; 
+    list-style: none;
+    padding: 16px   ;
+    margin-top: 56px;
+}
+
+.sectionabout li {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+.creators {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px; 
+}
+
+.creators div {
+    text-align: center;
+}
+
+.creators img {
+    height: 256px;
+    display: inline;
+}
+
+footer {
+    margin-top: 8px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Herculanum LT Pro', sans-serif;
+}
+
+.sectionabout h4{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 8px;
+    font-family: 'Herculanum LT Pro', sans-serif;
+} 
+
+.container a img:hover{
+    background-color: white;
+    padding: 2px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #eeeeee;
+}
+
+li .images-container-site img{
+    height: 150px;
+}
+
+.button {
+    background-color: rgb(76, 76, 138);
+    color: white;
+    padding: 8px ;
+    display: block;
+    text-decoration: none;
+    margin: 8px auto;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    font-family: 'Herculanum LT Pro', sans-serif;
+}
+
+.container-characters img{
+    height: 300px;
+    padding: 8px 16px;
+}
+
+article{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 16px 16px;
+    font-size: 24px;
+    color: white; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+h5{
+    font-size: 56px;
+    font-family: 'Herculanum LT Pro', sans-serif; 
+} 
+
+article img{
+    height: 450px;
+    margin: 25px;
+}
+
+article a{
+    font-size: 16px;
+}
+
+article h5 img{
+    height: 80px;
+    margin-left: 0px;
+    margin-bottom: -15px;
+}
+
+.air{
+    background-color: rgba(128, 128, 128, 0.195);
+}
+
+.fire{
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.earth {
+    background-color: rgba(9, 128, 0, 0.184);
+}
+
+.water{
+    background-color: rgba(0, 115, 255, 0.184);
+}
+
+.container > footer{
+    background-color: rgb(76, 76, 138);
+    padding: 16px 16px;
+    color: rgb(255, 255, 255); 
+    font-size: 18px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: -80px;
+    margin-right: -80px;
+}
+
+footer a{
+    color: white;
+}
+
